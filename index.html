@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Recursos Humanos</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="imagex/png" href="./css/logo96px.png">
+
+    <link rel="stylesheet" type="text/css"   href="./css/style.css">
+</head>
+
+<body>
+    <!-- Secao para definir a primeira parte do site, contendo o Iframe do gráfico e informações sobre o BI -->
+    <section class="Primeira-Parte">
+        <!-- Div com o titulo e o Iframe -->
+        <div class="Titulo-Dash">
+            <h1>Dashboard Recursos Humanos</h1>
+            <!-- Iframe do BI, gerado pelo Power BI web -->
+            <!-- <iframe title="Dashboard Recursos Humanos" width="1203" height="662" src="hhttps://app.powerbi.com/view?r=eyJrIjoiZGU0ZDU0NDktMDNjZS00ODI4LWFmOWQtMjI1ZDljMzM4NjVkIiwidCI6Ijc4NzhkMmY1LWU3YWMtNDE0OS1hNGYyLTliMjhkOWM0YTMzZSJ9" frameborder="0" allowFullScreen="true"></iframe> -->
+            <div class="Responsive-iframe-container">
+                <iframe 
+                    title="Dashboard Recursos Humanos" 
+                    src="https://app.powerbi.com/view?r=eyJrIjoiZGU0ZDU0NDktMDNjZS00ODI4LWFmOWQtMjI1ZDljMzM4NjVkIiwidCI6Ijc4NzhkMmY1LWU3YWMtNDE0OS1hNGYyLTliMjhkOWM0YTMzZSJ9" 
+                    allowFullScreen="true">
+                </iframe>
+            </div>
+        </div>
+        <!-- Div como detalhamento do BI -->
+        <div class="Detalhes-Dash">
+            <p class="Detalhes-Paragrafo">
+                Projeto de dashboard desenvolvido no Power BI utilizando dados de uma empresa fictícia para identificar 
+                <!-- Lista de Itens mapeados pelo BI -->
+                <ul class="Lista-paragrafo">
+                    <li class="Lista-item">Valor da receita bruta por ano e no total</li>
+                    <li class="Lista-item">Quantidade de pedidos por ano, status, tipo de báu e no total</li>
+                    <li class="Lista-item">Quantidade de entregar atrasadas no total</li>
+                    <li class="Lista-item">Quantidade de devoluções por báu, motivo, cidade/UF e no total</li>
+                </ul>
+            </p>
+            <!-- Detalhes sobre o projeto de BI -->
+            <p class="Detalhes-paragrafo2">O projeto de dashboards sempre visa simplificar e agilizar as tomadas de decisões. O objetivo desse BI de logística
+                é facilitar a identificação de tendências, gargalos e oportunidades de melhoria no fluxo de operações do setor de logística, oferecendo uma visão clara e integrada do 
+                desempenho em operações da empresa. Os pontos listados foram todos atendidos e simplificado por meio de diversos gráficos, facilitando a análise para os gestores.
+            </p>
+        </div>
+    </section>
+    <!-- Secao para explicar sobre os filtros utilizados no BI -->
+    <section class="Segunda-Parte">
+        <!-- Div com a  explicacao sobre os filtro do BI, foto do filtro funcionando-->
+        <div class="Explicacao-Dash">
+            <h2 class="Titulo-Explicacao">Filtro</h2>
+            <!-- Foto do Filtro em execucao -->
+            <img src="./css/Exfiltro.png" alt="Exemplo de Filtro no Dash">
+            <!-- Detalhes sobre o Filtro -->
+            <p class="Explicacao-ParagrafoFiltro">Foi adicionado 2 filtros principais um de Ano e um de Baú; assim facilitando a análise por período e por tipo de baú. O usuário também.
+                Pode filtrar clicando nos gráficos, fazendo que não precise incluir filtros para cada item de análise, sendo os gráficos totalmente interativos.
+            </p>
+        </div>
+        <!-- Div com a finalização do site -->
+        <div class="Finalizacao">
+            <p class="Finalizacao-Paragrafo">Com essa apresentação, é possível alinhar de forma precisa os dados e facilitar a vizualiação de problemas, ajudando assim a descobrir qual tipo de baú é o que mais tem problemas,
+                qual a porcentagem e quantidade de entregas atrasadas ou no prazo. Também é possivel ver o valor da receita bruta, número de pedidos em várias formas de vizualização totalmente interativos.
+            </p>
+
+        </div>
+    </section>
+</body>
+</html>
