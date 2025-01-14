@@ -62,7 +62,7 @@ h2 {
 }
 
 /* Parágrafos */
-.Detalhes-Paragrafo, .Detalhes-paragrafo2, .Explicacao-ParagrafoFiltro, .Finalizacao-Paragrafo {
+.Detalhes-Paragrafo, .Detalhes-paragrafo2, .Explicacao-ParagrafoExplicação, .Finalizacao-Paragrafo {
     margin: 10px 0;
     line-height: 1.6;
     text-align: justify;
@@ -81,24 +81,25 @@ h2 {
     font-size: 2em; /* Tamanho do ponto */
     vertical-align: auto;
     margin-right: 5px;
+    color: #5ABA8A;
 }
 
 /* Ajustar cor dos pontos individualmente */
-.Lista-item:nth-child(1)::before {
-    color: #5e46b3; /* Exemplo de cor personalizada */
-}
+/* .Lista-item:nth-child(1)::before {
+    color: #5ABA8A; 
+} 
 
 .Lista-item:nth-child(2)::before {
     color: #598ccc;
-}
+} 
 
 .Lista-item:nth-child(3)::before {
     color: #78eaed;
-}
+} 
 
 .Lista-item:nth-child(4)::before {
     color: #e0886d;
-}
+}  */
 
 /* Regras responsivas */
 @media (max-width: 1200px) {
